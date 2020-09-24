@@ -11,21 +11,30 @@ $ filter [flag] infile outfile
 ```
 $ filter g tower.bmp grey.bmp
 ```
-![Before](images/tower.bmp?raw=true "Before")
+Before | After
+----------------------------------------------|-------------------------------
+![Before](images/tower.bmp?raw=true "Before") |![After](grey.bmp?raw=true "After")
+
 ### Horizontal Reflection
 ```
 $ filter r tower.bmp reflect.bmp
 ```
-![Before](images/tower.bmp?raw=true "Before")
+Before | After
+----------------------------------------------|-------------------------------
+![Before](images/tower.bmp?raw=true "Before") |![After](reflect.bmp?raw=true "After")
 
 ### Blur
 ```
 $ filter b tower.bmp blur.bmp
 ```
-![Before](images/tower.bmp?raw=true "Before")
+Before | After
+----------------------------------------------|-------------------------------
+![Before](images/tower.bmp?raw=true "Before") |![After](blur.bmp?raw=true "After")
 
 ### Edge Detection
 ```
 $ filter e tower.bmp edge.bmp
 ```
-![Before](images/tower.bmp?raw=true "Before")
+Before | After
+----------------------------------------------|-------------------------------
+![Before](images/tower.bmp?raw=true "Before") |![After](edge.bmp?raw=true "After")
