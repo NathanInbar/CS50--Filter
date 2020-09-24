@@ -9,7 +9,7 @@ $ filter [flag] infile outfile
 
 ### Greyscale
 ```
-$ filter g tower.bmp grey.bmp
+$ filter -g tower.bmp grey.bmp
 ```
 Before | After
 ----------------------------------------------|-------------------------------
@@ -17,7 +17,7 @@ Before | After
 
 ### Horizontal Reflection
 ```
-$ filter r tower.bmp reflect.bmp
+$ filter -r tower.bmp reflect.bmp
 ```
 Before | After
 ----------------------------------------------|-------------------------------
@@ -25,7 +25,7 @@ Before | After
 
 ### Blur
 ```
-$ filter b tower.bmp blur.bmp
+$ filter -b tower.bmp blur.bmp
 ```
 Before | After
 ----------------------------------------------|-------------------------------
@@ -33,7 +33,7 @@ Before | After
 
 ### Edge Detection
 ```
-$ filter e tower.bmp edge.bmp
+$ filter -e tower.bmp edge.bmp
 ```
 Before | After
 ----------------------------------------------|-------------------------------
